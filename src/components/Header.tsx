@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <header>
-            <div className="container">
+            <div className="header_inner">
                 <h1 className="logo">
                     <a href="#">
                         <img src="/nike/img/logo.png" alt="나이키 로고" />
