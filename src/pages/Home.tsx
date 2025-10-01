@@ -1,4 +1,5 @@
 const Home = () => {
+    // 자동 배포 테스트
     return (
         <main>
             <section className="intro_section">
