@@ -125,8 +125,9 @@ const Home = () => {
                 <div className="container">
                     <div className="bg_knight_photo"></div>
                     <div className="text_box">
-                        <span>Phil</span>
-                        <h2>Knight</h2>
+                        <h2>
+                            <span>Phil</span>Knight
+                        </h2>
                         <p className="paragraph">
                             나이키는 단순한 신발 회사가 아닙니다. 그것은 한 명의
                             사업가와 한 명의 코치가 함께 꿈꾼 이상의 결과입니다.
@@ -161,7 +162,7 @@ const Home = () => {
                 <div className="container">
                     <h2 className="sr_only">history</h2>
                     <div className="bg_red_shoes"></div>
-                    <div className="first_history_box history_box">
+                    <div className="history_box">
                         <span>01</span>
                         <div>
                             <b>1964-1971</b>

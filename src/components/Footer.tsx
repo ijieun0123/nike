@@ -21,14 +21,15 @@ const Footer = () => {
                         <li>통신판매업신고번호 2011-서울강남-03461</li>
                         <li>사업자등록번호 220-88-09068</li>
                         <li>
-                            고객센터 전화 문의 080-022-0182 
-                            <br className="show_on_mobile" />
-                            FAX 02-6744-5880
+                            <a href="#">고객센터 전화 문의 080-022-0182 </a>
                         </li>
+                        <li>FAX 02-6744-5880</li>
                         <li>호스팅서비스사업자 (유)나이키코리아</li>
                     </ul>
                 </address>
-                <p className="copyright"></p>
+                <p className="copyright">
+                    © 2025 Nike, Inc. All Rights Reserved
+                </p>
             </div>
         </footer>
     );
