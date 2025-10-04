@@ -1,0 +1,114 @@
+// fonts
+.section_title {
+    font-family: $font_family_english;
+    font-size: $font_size_mobile_section_title;
+    font-weight: $font_weight_extra_bold;
+    color: $black;
+
+    @media (min-width: 768px) {
+        font-size: $font_size_tablet_768_section_title;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: $font_size_tablet_1024_section_title;
+    }
+}
+
+.paragraph {
+    font-family: $font_family_korean;
+    font-size: $font_size_mobile_paragraph;
+    line-height: $line_height_mobile_paragraph;
+    word-break: keep-all;
+    color: $black;
+
+    @media (min-width: 1024px) {
+        font-size: $font_size_tablet_1024_paragraph;
+        line-height: $line_height_tablet_1024_paragraph;
+    }
+}
+
+.more_btn {
+    font-family: $font_family_english;
+    font-size: $font_size_mobile_more_btn;
+    color: $black;
+
+    @media (min-width: 768px) {
+        font-size: $font_size_tablet_768_more_btn;
+    }
+}
+
+.round_btn {
+    font-family: $font_family_english;
+    font-size: $font_size_mobile_round_btn;
+    color: $black;
+
+    @media (min-width: 768px) {
+        font-size: $font_size_tablet_768_round_btn;
+    }
+}
+
+.card_title {
+    font-family: $font_family_korean;
+    font-size: $font_size_card_title;
+    font-weight: $font_weight_bold;
+    color: $black;
+}
+
+// container
+.container {
+    width: 82.222%;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        width: 86.979%;
+    }
+
+    @media (min-width: 1024px) {
+        width: 90.625%;
+    }
+
+    @media (min-width: 1440px) {
+        width: 1396px;
+    }
+}
+
+// section
+section {
+    margin: 120px 0;
+
+    @media (min-width: 768px) {
+        margin: 150px 0;
+    }
+
+    @media (min-width: 1024px) {
+        margin: 200px 0;
+    }
+}
+
+// br
+.hide_on_mobile {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: inline;
+    }
+}
+.show_on_mobile {
+    display: inline;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+// sr_only
+.sr_only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
