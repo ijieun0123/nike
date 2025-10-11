@@ -1,0 +1,166 @@
+@import "../../styles/variables";
+@import "../../styles/reset";
+@import "../../styles/common";
+
+main {
+    .intro_section {
+        margin-top: 0;
+
+        .container {
+            position: relative;
+            height: 740px;
+
+            .shoes_img {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 160px;
+                width: 296px;
+                z-index: 2;
+            }
+            .nike {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 248px;
+                font-family: "Protest Revolution", sans-serif;
+                font-size: 150px;
+                letter-spacing: 0.05em;
+                color: $black;
+                z-index: 1;
+            }
+            .just_do_it_box {
+                position: absolute;
+                bottom: 115px;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-items: center;
+                gap: 18px;
+                width: 100%;
+
+                .logo {
+                    width: 62px;
+                }
+                div {
+                    .just_do_it {
+                        margin-bottom: 10px;
+                        font-family: $font_family_english;
+                        color: $black;
+                        font-weight: $font_weight_extra_bold;
+                        font-size: 30px;
+                    }
+                    .a_legacy_of_action {
+                        font-family: $font_family_english;
+                        color: $black;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .iconic_section {
+        .container {
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        .intro_section {
+            .container {
+                height: 1049px;
+
+                .shoes_img {
+                    top: 190px;
+                    width: 556px;
+                }
+                .nike {
+                    top: 308px;
+                    font-size: 300px;
+                }
+                .just_do_it_box {
+                    bottom: 171px;
+                    left: auto;
+                    transform: translateX(0);
+                    right: 0;
+                    display: flex;
+                    width: auto;
+
+                    .logo {
+                        width: 86px;
+                    }
+                    div {
+                        .just_do_it {
+                        }
+                        .a_legacy_of_action {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        .intro_section {
+            .container {
+                height: 1049px;
+
+                .shoes_img {
+                    top: 133px;
+                    width: 750px;
+                }
+                .nike {
+                    top: 308px;
+                    font-size: 400px;
+                }
+                .just_do_it_box {
+                    bottom: 171px;
+                    left: auto;
+                    transform: translateX(0);
+                    right: 0;
+
+                    .logo {
+                    }
+                    div {
+                        .just_do_it {
+                        }
+                        .a_legacy_of_action {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    main {
+        .intro_section {
+            .container {
+                height: 1049px;
+
+                .shoes_img {
+                    top: 130px;
+                    width: 750px;
+                }
+                .nike {
+                }
+                .just_do_it_box {
+                    .logo {
+                    }
+                    div {
+                        .just_do_it {
+                        }
+                        .a_legacy_of_action {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

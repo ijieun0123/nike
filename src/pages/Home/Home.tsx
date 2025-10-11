@@ -1,3 +1,4 @@
+import TitleBox from "../../components/TitleBox";
 import "./_Home.scss";
 
 const Home = () => {
@@ -6,10 +7,18 @@ const Home = () => {
             <section className="intro_section">
                 <div className="container">
                     <h2 className="sr_only">visual</h2>
-                    <div className="bg_shoes"></div>
+                    <img
+                        src="/nike/img/intro_section_shoes.png"
+                        alt="nike shoes"
+                        className="shoes_img"
+                    />
                     <span className="nike">NIKE</span>
                     <div className="just_do_it_box">
-                        <img src="" alt="나이키 로고" className="logo" />
+                        <img
+                            src="/nike/img/logo.png"
+                            alt="나이키 로고"
+                            className="logo"
+                        />
                         <div>
                             <p className="just_do_it">JUST DO IT.</p>
                             <p className="a_legacy_of_action">
@@ -21,7 +30,7 @@ const Home = () => {
             </section>
             <section className="iconic_section">
                 <div className="container">
-                    <div className="title_box">
+                    {/* <div className="title_box">
                         <h2 className="title">Always Iconic</h2>
                         <p className="paragraph">
                             모든 영감의 시작. 스타일의 '근본'이 되는 아이코닉
@@ -35,7 +44,13 @@ const Home = () => {
                             MORE
                             <img src="#" alt="arrow" />
                         </a>
-                    </div>
+                    </div> */}
+                    <TitleBox
+                        title="Always Iconic"
+                        subtitle1="모든 영감의 시작. 스타일의 '근본'이 되는 아이코닉 컬렉션."
+                        subtitle2="새로운 트렌드는 결국 클래식에서 온다. 오리지널을 신으세요."
+                        color="white"
+                    />
                     <div className="slider">
                         <div className="slider_wrapper">
                             <div className="slide">
