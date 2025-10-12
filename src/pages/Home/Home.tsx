@@ -1,3 +1,4 @@
+import IconicSlider from "../../components/slider/IconicSlider";
 import TitleBox from "../../components/TitleBox";
 import "./_Home.scss";
 
@@ -30,49 +31,19 @@ const Home = () => {
             </section>
             <section className="iconic_section">
                 <div className="container">
-                    {/* <div className="title_box">
-                        <h2 className="title">Always Iconic</h2>
-                        <p className="paragraph">
-                            모든 영감의 시작. 스타일의 '근본'이 되는 아이코닉
-                            컬렉션.
-                            <br className="hide_on_mobile" />
-                            새로운 트렌드는 결국 클래식에서 온다. 오리지널을
-                            신으세요.
-                        </p>
-                        <span className="line"></span>
-                        <a href="#">
-                            MORE
-                            <img src="#" alt="arrow" />
-                        </a>
-                    </div> */}
                     <TitleBox
                         title="Always Iconic"
                         subtitle1="모든 영감의 시작. 스타일의 '근본'이 되는 아이코닉 컬렉션."
                         subtitle2="새로운 트렌드는 결국 클래식에서 온다. 오리지널을 신으세요."
                         color="white"
                     />
-                    <div className="slider">
-                        <div className="slider_wrapper">
-                            <div className="slide">
-                                <div className="bg_nike_logo"></div>
-                                <div className="bg_shoes"></div>
-                                <div className="info_box">
-                                    <b>코르테즈</b>
-                                    <p>트랙을 넘어 스트리트로, 영원한 클래식</p>
-                                    <a href="#">
-                                        SHOP NOW
-                                        <img src="#" alt="arrow" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <IconicSlider />
                 </div>
             </section>
             <section className="brand_section">
                 <div className="container">
                     <h2 className="sr_only">brand</h2>
-                    <div className="img_text_box">
+                    <div className="img_text_box img_text_box_1">
                         <div className="bg_red_shoes"></div>
                         <div className="text_box">
                             <h3>Just Do It. 의 탄생</h3>
@@ -87,7 +58,11 @@ const Home = () => {
                             <span className="line"></span>
                         </div>
                     </div>
-                    <div className="img_text_box">
+                    <div className="img_text_box img_text_box_2">
+                        <div className="img_box">
+                            <div className="bg_yellow_shoes"></div>
+                            <div className="bg_gray_shoes"></div>
+                        </div>
                         <div className="text_box">
                             <h3>Innovation in Motion</h3>
                             <p className="paragraph">
@@ -100,12 +75,8 @@ const Home = () => {
                             </p>
                             <span className="line"></span>
                         </div>
-                        <div className="img_box">
-                            <div className="bg_yellow_shoes"></div>
-                            <div className="bg_gray_shoes"></div>
-                        </div>
                     </div>
-                    <div className="img_text_box">
+                    <div className="img_text_box img_text_box_3">
                         <div className="bg_red_gold_shoes"></div>
                         <div className="text_box">
                             <h3>Beyond the Game</h3>
@@ -120,7 +91,8 @@ const Home = () => {
                             <span className="line"></span>
                         </div>
                     </div>
-                    <div className="img_text_box">
+                    <div className="img_text_box img_text_box_4">
+                        <div className="bg_blue_shoes"></div>
                         <div className="text_box">
                             <h3>Moment of Greatness</h3>
                             <p className="paragraph">
@@ -134,7 +106,6 @@ const Home = () => {
                             </p>
                             <span className="line"></span>
                         </div>
-                        <div className="bg_blue_shoes"></div>
                     </div>
                 </div>
             </section>

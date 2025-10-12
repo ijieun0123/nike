@@ -45,7 +45,7 @@ const MoreBtn = styled.a<ColorProps>`
     gap: 10px;
     align-items: center;
     margin-top: 20px;
-    float: right;
+    justify-content: end;
     color: ${props =>
         props.color == "white" ? "var(--white-color)" : "var(--black-color)"};
 
