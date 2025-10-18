@@ -176,11 +176,13 @@ main {
         }
     }
     .knight_section {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 40px;
         padding-bottom: 80px;
+        margin-bottom: 0;
         background: #f5f5f5;
 
         .bg_knight_photo {
@@ -207,6 +209,86 @@ main {
             }
             .paragraph {
                 margin: 20px 0 45px;
+            }
+        }
+    }
+    .legend_section {
+        width: 100%;
+        height: 584px;
+        margin-top: 0;
+        background: url("/nike/img/legend_section_photo.png") no-repeat
+            center/cover;
+        text-align: center;
+
+        .container {
+            padding-top: 154px;
+
+            h2 {
+                font-family: $font_family_korean;
+                font-size: 40px;
+                font-weight: $font_weight_extra_bold;
+                color: $white;
+            }
+            .paragraph {
+                margin: 20px 0 60px;
+                color: $white;
+            }
+            .round_btn {
+                margin: 0 auto;
+            }
+        }
+    }
+    .history_section {
+        .container {
+            .bg_red_shoes {
+            }
+            .history_wrap {
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+
+                // 공통
+                .history_box {
+                    display: flex;
+                    gap: 16px;
+
+                    span {
+                        margin-top: -25px;
+                        font-family: $font_family_number;
+                        font-size: 80px;
+                        font-weight: $font_weight_extra_bold;
+                    }
+                    div {
+                        b {
+                            font-family: $font_family_english;
+                            font-size: 20px;
+                            font-weight: $font_weight_extra_bold;
+                        }
+                        .paragraph {
+                            margin-top: 10px;
+                            padding-top: 16px;
+                            border-top: 1px solid rgba(17, 17, 17, 0.3);
+                        }
+                    }
+                }
+                .history_box_1 {
+                }
+                .history_box_2 {
+                }
+                .history_box_3 {
+                }
+                .history_box_4 {
+                }
+            }
+        }
+    }
+    .trending_section {
+        padding: 100px 0;
+        background: $black;
+
+        .container {
+            .round_btn {
+                display: none;
             }
         }
     }
@@ -401,6 +483,75 @@ main {
                 }
             }
         }
+        .legend_section {
+            height: 584px;
+            margin-top: -114px;
+
+            .container {
+                padding-top: 180px;
+
+                h2 {
+                    font-size: 40px;
+                }
+                .paragraph {
+                    margin: 20px 0 50px;
+                }
+                .round_btn {
+                }
+            }
+        }
+        .history_section {
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+
+                .bg_red_shoes {
+                    order: 2;
+                    width: 238px;
+                    height: 658px;
+                    background: url("/nike/img/history_section_shoes.png")
+                        no-repeat center/cover;
+                }
+                .history_wrap {
+                    order: 1;
+                    width: 48.802%;
+
+                    // 공통
+                    .history_box {
+                        span {
+                            font-size: 80px;
+                        }
+                        div {
+                            b {
+                                font-size: 20px;
+                            }
+                            .paragraph {
+                                margin-top: 10px;
+                                padding-top: 16px;
+                            }
+                        }
+                    }
+                    .history_box_1 {
+                    }
+                    .history_box_2 {
+                    }
+                    .history_box_3 {
+                    }
+                    .history_box_4 {
+                    }
+                }
+            }
+        }
+        .trending_section {
+            padding: 120px 0;
+
+            .container {
+                .round_btn {
+                }
+            }
+        }
     }
 }
 
@@ -578,6 +729,86 @@ main {
                 }
             }
         }
+        .legend_section {
+            height: 860px;
+            margin-top: -190px;
+
+            .container {
+                padding-top: 350px;
+
+                h2 {
+                    font-size: 50px;
+                }
+                .paragraph {
+                    margin: 20px 0 50px;
+                }
+                .round_btn {
+                }
+            }
+        }
+        .history_section {
+            .container {
+                position: relative;
+                height: 1000px;
+
+                .bg_red_shoes {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 233px;
+                    height: 633px;
+                }
+                .history_wrap {
+                    width: auto;
+
+                    // 공통
+                    .history_box {
+                        position: absolute;
+                        flex-direction: column;
+                        width: 31.896%;
+
+                        span {
+                            margin-top: 0;
+                            font-size: 80px;
+                        }
+                        div {
+                            b {
+                                font-size: 25px;
+                            }
+                            .paragraph {
+                                margin-top: 10px;
+                                padding-top: 16px;
+                            }
+                        }
+                    }
+                    .history_box_1 {
+                        left: 0;
+                        top: 0;
+                    }
+                    .history_box_2 {
+                        right: 0;
+                        top: 236px;
+                    }
+                    .history_box_3 {
+                        left: 0;
+                        bottom: 258px;
+                    }
+                    .history_box_4 {
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+        .trending_section {
+            padding: 150px 0;
+
+            .container {
+                .round_btn {
+                }
+            }
+        }
     }
 }
 
@@ -750,6 +981,100 @@ main {
                 }
                 .paragraph {
                     margin: 54px 0 80px;
+                }
+            }
+        }
+        .legend_section {
+            margin-top: -165px;
+
+            .container {
+                padding-top: 374px;
+
+                h2 {
+                }
+                .paragraph {
+                }
+                .round_btn {
+                }
+            }
+        }
+        .history_section {
+            .container {
+                height: 945px;
+
+                .bg_red_shoes {
+                    width: 321px;
+                    height: 886px;
+                }
+                .history_wrap {
+                    // 공통
+                    .history_box {
+                        width: 452px;
+
+                        span {
+                        }
+                        div {
+                            b {
+                            }
+                            .paragraph {
+                            }
+                        }
+                    }
+                    .history_box_1 {
+                        left: 0;
+                        top: 0;
+                    }
+                    .history_box_2 {
+                        right: 0;
+                        top: 272px;
+                    }
+                    .history_box_3 {
+                        left: 0;
+                        bottom: 284px;
+                    }
+                    .history_box_4 {
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+        .membership_section {
+            position: relative;
+            width: 100%;
+            height: 803px;
+
+            .container {
+                .gray_box {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    width: 27.386%;
+                    height: 545px;
+                    background: #ececec;
+                }
+            }
+        }
+        .trending_section {
+            .container {
+                position: relative;
+
+                .trending_slider {
+                    margin-left: 353px;
+                }
+                .line {
+                    position: absolute;
+                    left: 0;
+                    top: 235px;
+                    width: 1px;
+                    height: 440px;
+                    background: rgba(255, 255, 255, 0.3);
+                }
+                .round_btn {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    display: flex;
                 }
             }
         }
