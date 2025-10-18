@@ -1,3 +1,4 @@
+import RoundBtn from "../../components/Button/RoundBtn";
 import IconicSlider from "../../components/slider/IconicSlider";
 import TitleBox from "../../components/TitleBox";
 import "./_Home.scss";
@@ -110,23 +111,19 @@ const Home = () => {
                 </div>
             </section>
             <section className="knight_section">
-                <div className="container">
-                    <div className="bg_knight_photo"></div>
-                    <div className="text_box">
-                        <h2>
-                            <span>Phil</span>Knight
-                        </h2>
-                        <p className="paragraph">
-                            나이키는 단순한 신발 회사가 아닙니다. 그것은 한 명의
-                            사업가와 한 명의 코치가 함께 꿈꾼 이상의 결과입니다.
-                            당신이 나이키 신발을 신는 것은 그들의 꿈과 집념을
-                            함께 나누는 것입니다.
-                        </p>
-                        <a href="#">
-                            READ MORE
-                            <img src="" alt="arrow" />
-                        </a>
-                    </div>
+                <div className="bg_knight_photo"></div>
+                <div className="text_box">
+                    <h2>
+                        Phil
+                        <span>Knight</span>
+                    </h2>
+                    <p className="paragraph">
+                        나이키는 단순한 신발 회사가 아닙니다. 그것은 한 명의
+                        사업가와 한 명의 코치가 함께 꿈꾼 이상의 결과입니다.
+                        당신이 나이키 신발을 신는 것은 그들의 꿈과 집념을 함께
+                        나누는 것입니다.
+                    </p>
+                    <RoundBtn btnName="READ MORE" color="black" />
                 </div>
             </section>
             <section className="legend_section">

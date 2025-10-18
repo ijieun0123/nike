@@ -17,7 +17,11 @@ const StyledBtn = styled.a<ColorProps>`
     width: 140px;
     height: 40px;
     border-radius: 50px;
-    border: 2px solid #fff;
+    border: 2px solid
+        ${props =>
+            props.color == "white"
+                ? "var(--white-color)"
+                : "var(--black-color)"};
     color: ${props =>
         props.color == "white" ? "var(--white-color)" : "var(--black-color)"};
 

@@ -84,9 +84,12 @@ main {
                 display: flex;
                 flex-direction: column;
                 gap: 25px;
+                align-items: center;
+                text-align: center;
 
                 .text_box {
                     h3 {
+                        font-family: $font_family_english;
                         font-size: 30px;
                         font-weight: 800;
                         color: $black;
@@ -172,6 +175,41 @@ main {
             }
         }
     }
+    .knight_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 80px;
+        background: #f5f5f5;
+
+        .bg_knight_photo {
+            width: 100%;
+            height: 463px;
+            background: url("/nike/img/knight_section_photo.png") no-repeat
+                center/cover;
+        }
+        .text_box {
+            width: 82.222%;
+            margin: 0 auto;
+
+            h2 {
+                font-family: $font_family_english;
+                font-size: 50px;
+                font-weight: $font_weight_bold;
+
+                span {
+                    display: block;
+                    margin-top: -10px;
+                    font-size: 60px;
+                    font-weight: $font_weight_extra_bold;
+                }
+            }
+            .paragraph {
+                margin: 20px 0 45px;
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) {
@@ -210,12 +248,15 @@ main {
         }
         .brand_section {
             .container {
+                width: auto;
                 gap: 0;
 
                 // 공통
                 .img_text_box {
                     flex-direction: row;
                     gap: 0;
+                    align-items: flex-start;
+                    text-align: left;
 
                     .text_box {
                         h3 {
@@ -230,7 +271,9 @@ main {
                 }
                 .img_text_box_1 {
                     position: relative;
+                    width: 86.979%;
                     height: 408px;
+                    margin: 0 auto;
 
                     .bg_red_shoes {
                         width: 362px;
@@ -252,11 +295,13 @@ main {
                         .paragraph {
                         }
                         .line {
+                            width: 563px;
                         }
                     }
                 }
                 .img_text_box_2 {
                     margin-top: 80px;
+                    margin-left: 7.031%;
 
                     .text_box {
                         order: 0;
@@ -270,34 +315,49 @@ main {
                     }
                     .img_box {
                         order: 1;
+                        margin-left: auto;
+
                         .bg_yellow_shoes {
-                            width: 296px;
-                            height: 296px;
-                            background: url("/nike/img/brand_section_shoes_2.png")
-                                no-repeat center/cover;
+                            width: 308px;
+                            height: 308px;
+                            margin-top: 97px;
                         }
                         .bg_gray_shoes {
                         }
                     }
                 }
                 .img_text_box_3 {
+                    flex-direction: column;
+                    gap: 6px;
+                    margin-top: -144px;
+                    margin-right: 7.031%;
+
                     .bg_red_gold_shoes {
-                        width: 296px;
-                        height: 296px;
-                        background: url("/nike/img/brand_section_shoes_4.png")
-                            no-repeat center/cover;
+                        width: 355px;
+                        height: 355px;
                     }
                     .text_box {
+                        margin-left: auto;
+                        text-align: right;
+
                         h3 {
                         }
                         .paragraph {
                         }
                         .line {
+                            width: 563px;
                         }
                     }
                 }
                 .img_text_box_4 {
+                    position: relative;
+                    height: 401px;
+                    margin-top: 74px;
+
                     .text_box {
+                        order: 0;
+                        margin-left: 7.031%;
+
                         h3 {
                         }
                         .paragraph {
@@ -306,11 +366,38 @@ main {
                         }
                     }
                     .bg_blue_shoes {
-                        width: 296px;
-                        height: 151px;
-                        background: url("/nike/img/brand_section_shoes_5.png")
-                            no-repeat center/contain;
+                        position: absolute;
+                        bottom: 0;
+                        right: -17.968%;
+                        order: 1;
+                        width: 579px;
+                        height: 290px;
                     }
+                }
+            }
+        }
+        .knight_section {
+            flex-direction: row;
+            gap: 40px;
+            width: 86.979%;
+            margin: 0 auto;
+            padding-bottom: 0;
+
+            .bg_knight_photo {
+                width: 48.802%;
+                height: 419px;
+            }
+            .text_box {
+                width: 51.198%;
+                margin: 0;
+                padding-right: 40px;
+
+                h2 {
+                    span {
+                    }
+                }
+                .paragraph {
+                    margin: 20px 0 30px;
                 }
             }
         }
@@ -348,6 +435,149 @@ main {
                 }
             }
         }
+        .brand_section {
+            .container {
+                width: auto;
+
+                // 공통
+                .img_text_box {
+                    .text_box {
+                        h3 {
+                            font-size: 50px;
+                        }
+                        .paragraph {
+                            margin: 20px 0 55px;
+                        }
+                        .line {
+                        }
+                    }
+                }
+                .img_text_box_1 {
+                    width: 90.625%;
+                    height: 416px;
+
+                    .bg_red_shoes {
+                        width: 460px;
+                        height: 382px;
+                    }
+                    .text_box {
+                        margin-top: 210px;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                            width: 563px;
+                        }
+                    }
+                }
+                .img_text_box_2 {
+                    margin-top: 170px;
+                    margin-left: 4.687%;
+
+                    .text_box {
+                        order: 0;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                        }
+                    }
+                    .img_box {
+                        order: 1;
+
+                        .bg_yellow_shoes {
+                            width: 323px;
+                            height: 323px;
+                            // width: 31.542%;
+                            // padding-bottom: 31.542%;
+                            margin-top: -50px;
+                        }
+                        .bg_gray_shoes {
+                            width: 246px;
+                            height: 246px;
+                            margin-top: -66px;
+                            margin-left: -80px;
+                            background: url("/nike/img/brand_section_shoes_3.png")
+                                no-repeat center/cover;
+                        }
+                    }
+                }
+                .img_text_box_3 {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-top: -76px;
+                    margin-right: 4.687%;
+
+                    .bg_red_gold_shoes {
+                        // width: 384px;
+                        // height: 384px;
+                        width: 37.5%;
+                        padding-bottom: 37.5%;
+                    }
+                    .text_box {
+                        align-self: flex-end;
+                        margin-left: 0;
+                        text-align: left;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                            width: 563px;
+                        }
+                    }
+                }
+                .img_text_box_4 {
+                    height: 332px;
+                    margin-top: 170px;
+
+                    .text_box {
+                        order: 0;
+                        margin-left: 4.687%;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                        }
+                    }
+                    .bg_blue_shoes {
+                        bottom: 0;
+                        right: -15.625%;
+                        order: 1;
+                        width: 678px;
+                        height: 332px;
+                    }
+                }
+            }
+        }
+        .knight_section {
+            gap: 65px;
+            width: 75.195%;
+
+            .bg_knight_photo {
+                width: 48.831%;
+                height: 585px;
+            }
+            .text_box {
+                width: 51.169%;
+                padding-right: 80px;
+
+                h2 {
+                    span {
+                    }
+                }
+                .paragraph {
+                    margin: 35px 0 48px;
+                }
+            }
+        }
     }
 }
 
@@ -382,6 +612,144 @@ main {
                 .title_box {
                 }
                 .slider {
+                }
+            }
+        }
+        .brand_section {
+            .container {
+                width: 1396px;
+
+                // 공통
+                .img_text_box {
+                    justify-content: space-between;
+
+                    .text_box {
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                        }
+                    }
+                }
+                .img_text_box_1 {
+                    width: 100%;
+                    height: auto;
+
+                    .bg_red_shoes {
+                        width: 688px;
+                        height: 385px;
+                        background: url("/nike/img/brand_section_shoes_1.png")
+                            no-repeat center/cover;
+                    }
+                    .text_box {
+                        position: static;
+                        margin-top: 118px;
+                        text-align: left;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                            width: 565px;
+                        }
+                    }
+                }
+                .img_text_box_2 {
+                    margin-top: 166px;
+                    margin-left: 0;
+
+                    .text_box {
+                        order: 0;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                            width: 563px;
+                        }
+                    }
+                    .img_box {
+                        order: 1;
+
+                        .bg_yellow_shoes {
+                            width: 323px;
+                            height: 323px;
+                            margin-top: -116px;
+                            margin-right: 245px;
+                        }
+                        .bg_gray_shoes {
+                            width: 360px;
+                            height: 360px;
+                            margin-top: 0;
+                            margin-left: auto;
+                        }
+                    }
+                }
+                .img_text_box_3 {
+                    margin-top: -240px;
+                    margin-right: 0;
+
+                    .bg_red_gold_shoes {
+                        width: 688px;
+                        height: 688px;
+                    }
+                    .text_box {
+                        margin-bottom: 37px;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                            width: 563px;
+                        }
+                    }
+                }
+                .img_text_box_4 {
+                    height: auto;
+                    margin-top: 63px;
+
+                    .text_box {
+                        align-self: flex-end;
+                        order: 0;
+                        margin-left: 0;
+
+                        h3 {
+                        }
+                        .paragraph {
+                        }
+                        .line {
+                            width: 563px;
+                        }
+                    }
+                    .bg_blue_shoes {
+                        position: static;
+                        order: 1;
+                        width: 699px;
+                        height: 347px;
+                    }
+                }
+            }
+        }
+        .knight_section {
+            width: 1160px;
+
+            .bg_knight_photo {
+                width: 455px;
+            }
+            .text_box {
+                width: 705px;
+                padding-right: 118px;
+
+                h2 {
+                    span {
+                    }
+                }
+                .paragraph {
+                    margin: 54px 0 80px;
                 }
             }
         }
