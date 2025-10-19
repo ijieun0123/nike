@@ -37,7 +37,9 @@ const Line = styled.span<ColorProps>`
     width: 100%;
     height: 1px;
     background: ${props =>
-        props.color == "white" ? "var(--white-color)" : "var(--black-color)"};
+        props.color == "white"
+            ? "rgba(255,255,255,0.3)"
+            : "rgba(17,17,17,0.3)"};
 `;
 
 const MoreBtn = styled.a<ColorProps>`

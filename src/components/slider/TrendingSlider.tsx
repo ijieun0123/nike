@@ -30,7 +30,7 @@ const trendingData = [
 
 const StyledSwiper = styled(Swiper)`
     margin-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
     @media (min-width: 768px) {
         margin-top: 50px;

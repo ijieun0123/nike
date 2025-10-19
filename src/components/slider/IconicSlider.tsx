@@ -27,7 +27,7 @@ const iconicData = [
 ];
 
 const StyledSwiper = styled(Swiper)`
-    margin-top: 67px;
+    margin-top: 114px;
     overflow: visible;
 
     @media (min-width: 768px) {

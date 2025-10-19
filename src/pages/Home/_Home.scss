@@ -63,7 +63,7 @@ main {
     }
     .iconic_section {
         margin: 0;
-        padding: 100px 0 150px;
+        padding: 100px 0 145px;
         background: $black;
 
         .container {
@@ -93,6 +93,7 @@ main {
                         font-size: 30px;
                         font-weight: 800;
                         color: $black;
+                        letter-spacing: -0.04rem;
                     }
                     .paragraph {
                         margin: 10px 0 40px;
@@ -245,7 +246,7 @@ main {
             .history_wrap {
                 display: flex;
                 flex-direction: column;
-                gap: 60px;
+                gap: 100px;
 
                 // 공통
                 .history_box {

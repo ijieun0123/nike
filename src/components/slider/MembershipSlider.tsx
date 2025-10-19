@@ -34,7 +34,7 @@ const memberShipData = [
 
 const StyledSwiper = styled(Swiper)`
     margin-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 
     @media (min-width: 768px) {
         margin-top: 50px;
