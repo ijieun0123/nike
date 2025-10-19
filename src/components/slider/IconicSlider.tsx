@@ -47,7 +47,6 @@ const IconicSlider = () => {
             breakpoints={{
                 768: {
                     spaceBetween: 20,
-                    loop: true,
                     width: 410,
                 },
                 1024: {
