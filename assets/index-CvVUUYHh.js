@@ -131,7 +131,7 @@ Error generating stack: `+l.message+`
     @media (min-width: 768px) {
         margin-top: 124px;
     }
-`,O1=()=>E.jsx(M1,{className:"iconic_swiper",modules:[Kc],spaceBetween:16,slidesPerView:1,loop:!1,pagination:{clickable:!0},breakpoints:{768:{spaceBetween:20,loop:!0,width:410},1024:{width:452}},children:A1.map(n=>E.jsx(Ws,{children:E.jsx(_1,{name:n.name,description:n.description,imgUrl:n.imgUrl})},n.id))}),z1=Ne.a`
+`,O1=()=>E.jsx(M1,{className:"iconic_swiper",modules:[Kc],spaceBetween:16,slidesPerView:1,loop:!1,pagination:{clickable:!0},breakpoints:{768:{spaceBetween:20,width:410},1024:{width:452}},children:A1.map(n=>E.jsx(Ws,{children:E.jsx(_1,{name:n.name,description:n.description,imgUrl:n.imgUrl})},n.id))}),z1=Ne.a`
     position: relative;
     display: inline-block;
     width: 100%;
