@@ -125,7 +125,7 @@ Error generating stack: `+l.message+`
         margin: 15px 0 33px;
     }
 `,_1=({name:n,description:s,imgUrl:r})=>E.jsxs(y1,{className:"iconic_slide",children:[E.jsx(S1,{className:"bg_nike_logo",style:{background:"url(/nike/img/logo.png) no-repeat center/cover"}}),E.jsx(b1,{className:"bg_shoes",style:{background:`url('${r}') no-repeat center/contain`}}),E.jsxs(T1,{children:[E.jsx(x1,{children:n}),E.jsx(E1,{className:"paragraph",children:s}),E.jsx(Ns,{btnName:"SHOW NOW",color:"white"})]})]}),A1=[{id:1,name:"코르테즈",description:"트랙을 넘어 스트리트로, 영원한 클래식",imgUrl:"/nike/img/iconic_section_shoes_1.png"},{id:2,name:"에어조던1",description:"스니커 문화의 시작, 전설을 만들다",imgUrl:"/nike/img/iconic_section_shoes_2.png"},{id:3,name:"샥스",description:"혁신적인 컬럼 쿠셔닝, 대담한 미래",imgUrl:"/nike/img/iconic_section_shoes_3.png"}],M1=Ne(Js)`
-    margin-top: 67px;
+    margin-top: 114px;
     overflow: visible;
 
     @media (min-width: 768px) {
@@ -158,7 +158,7 @@ Error generating stack: `+l.message+`
     color: var(--white-color);
 `,R1=({title:n,description:s,imageUrl:r})=>E.jsxs(z1,{href:"#",className:"membership_slide",children:[E.jsx(w1,{className:"bg_photo",imageUrl:r}),E.jsxs(C1,{children:[E.jsx(N1,{className:"card_title",children:n}),E.jsx(D1,{className:"paragraph",children:s})]})]}),j1=[{id:1,title:"맴버 리워드",description:"운동과 쇼핑을 위한 특별한 혜택",imageUrl:"/nike/img/membership_section_photo_1.png"},{id:2,title:"스포츠 & 웰니스 앱",description:"언제 어디서든 운동하기",imageUrl:"/nike/img/membership_section_photo_2.png"},{id:3,title:"SNKRS",description:"최고의 스니커즈 커뮤니티",imageUrl:"/nike/img/membership_section_photo_3.png"},{id:4,title:"대학생 멤버 혜택",description:"대학생 할인 프로그램",imageUrl:"/nike/img/membership_section_photo_4.png"}],B1=Ne(Js)`
     margin-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
 
     @media (min-width: 768px) {
         margin-top: 50px;
@@ -187,7 +187,7 @@ Error generating stack: `+l.message+`
     font-size: 15px;
 `,V1=({title:n,imageUrl:s})=>E.jsxs(H1,{href:"#",className:"trending_slide",children:[E.jsx(G1,{className:"bg_photo",imageUrl:s}),E.jsxs(L1,{children:[E.jsx(q1,{className:"card_title",children:n}),E.jsx(Y1,{children:"SHOP NOW"})]})]}),X1=[{id:1,title:"나이키와 시작하는 가을",imageUrl:"/nike/img/trend_section_photo_1.png"},{id:2,title:"나이키 스트라이크 의류 컬렉션",imageUrl:"/nike/img/trend_section_photo_2.png"},{id:3,title:"남성 맥스 90 농구 티셔츠",imageUrl:"/nike/img/trend_section_photo_3.png"},{id:4,title:"나이키 골프 컬렉션",imageUrl:"/nike/img/trend_section_photo_4.png"}],Q1=Ne(Js)`
     margin-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
     @media (min-width: 768px) {
         margin-top: 50px;
@@ -209,7 +209,7 @@ Error generating stack: `+l.message+`
     display: block;
     width: 100%;
     height: 1px;
-    background: ${n=>n.color=="white"?"var(--white-color)":"var(--black-color)"};
+    background: ${n=>n.color=="white"?"rgba(255,255,255,0.3)":"rgba(17,17,17,0.3)"};
 `,W1=Ne.a`
     display: flex;
     gap: 10px;
