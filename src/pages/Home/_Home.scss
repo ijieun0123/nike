@@ -859,7 +859,7 @@ main {
             }
         }
         .iconic_section {
-            padding: 100px 0;
+            padding: 150px 0;
 
             .container {
                 .title_box {
@@ -1031,9 +1031,12 @@ main {
                 .history_wrap {
                     // 공통
                     .history_box {
+                        flex-direction: row;
+                        gap: 48px;
                         width: 452px;
 
                         span {
+                            margin-top: -20px;
                         }
                         div {
                             b {
