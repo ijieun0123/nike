@@ -5,12 +5,22 @@ const Footer = () => {
         <footer>
             <div className="container">
                 <div className="logo_policy_box">
-                    <img className="logo" src="" alt="나이키 로고" />
+                    <img
+                        className="logo"
+                        src="/nike/img/logo.png"
+                        alt="나이키 로고"
+                    />
                     <ul className="policy_box">
                         <li>
                             <a href="#">이용약관</a>
+                        </li>
+                        <li>
                             <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li>
                             <a href="#">위치정보이용약관</a>
+                        </li>
+                        <li>
                             <a href="#">영상정보처리기기 운영 방침</a>
                         </li>
                     </ul>

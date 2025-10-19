@@ -1,0 +1,178 @@
+@import "../../styles/variables";
+
+footer {
+    padding: 100px 0;
+
+    .container {
+        .logo_policy_box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+
+            .logo {
+                width: 86px;
+            }
+            .policy_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+
+                li {
+                    a {
+                        display: block;
+                        font-family: $font_family_korean;
+                        font-size: 16px;
+                        font-weight: $font_weight_bold;
+                        text-align: center;
+                        color: $black;
+                    }
+                }
+            }
+        }
+        .line {
+            display: block;
+            width: 100%;
+            height: 1px;
+            margin: 35px 0 40px;
+            background: rgba(17, 17, 17, 0.3);
+        }
+        address {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                li {
+                    font-family: $font_family_korean;
+                    font-size: 15px;
+                    font-style: normal;
+                    text-align: center;
+                    letter-spacing: -0.06rem;
+                    color: $black;
+                }
+            }
+        }
+        .copyright {
+            margin-top: 50px;
+            font-family: $font_family_korean;
+            font-size: 16px;
+            text-align: center;
+            color: $black;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+        padding: 100px 0;
+
+        .container {
+            .logo_policy_box {
+                flex-direction: column;
+                gap: 50px;
+
+                .logo {
+                    width: 86px;
+                }
+                .policy_box {
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 30px;
+
+                    li {
+                        a {
+                        }
+                    }
+                }
+            }
+            .line {
+            }
+            address {
+                ul {
+                    gap: 12px;
+
+                    li {
+                        font-size: 16px;
+                        letter-spacing: 0;
+                    }
+                }
+            }
+            .copyright {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        padding: 100px 0;
+
+        .container {
+            .logo_policy_box {
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 50px;
+
+                .logo {
+                    width: 86px;
+                }
+                .policy_box {
+                    gap: 50px;
+
+                    li {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            .line {
+            }
+            address {
+                ul {
+                    gap: 10px;
+
+                    li {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .copyright {
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    footer {
+        .container {
+            .logo_policy_box {
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 268px;
+
+                .logo {
+                }
+                .policy_box {
+                    li {
+                        a {
+                        }
+                    }
+                }
+            }
+            .line {
+            }
+            address {
+                ul {
+                    li {
+                    }
+                }
+            }
+            .copyright {
+            }
+        }
+    }
+}
