@@ -41,16 +41,12 @@ const IconicSlider = () => {
             className="iconic_swiper"
             modules={[Pagination]}
             spaceBetween={16}
-            slidesPerView={1}
+            slidesPerView="auto"
             loop={false}
             pagination={{ clickable: true }}
             breakpoints={{
                 768: {
                     spaceBetween: 20,
-                    width: 410,
-                },
-                1024: {
-                    width: 452,
                 },
             }}
         >

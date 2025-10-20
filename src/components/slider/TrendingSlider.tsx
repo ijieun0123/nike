@@ -31,6 +31,7 @@ const trendingData = [
 const StyledSwiper = styled(Swiper)`
     margin-top: 40px;
     padding-bottom: 50px;
+    overflow: visible;
 
     @media (min-width: 768px) {
         margin-top: 50px;
@@ -42,11 +43,16 @@ const TrendingSlider = () => {
         <StyledSwiper
             className="trending_slider"
             modules={[Pagination]}
-            spaceBetween={20}
+            spaceBetween={16}
             slidesPerView="auto"
             loop={true}
             pagination={{ clickable: true }}
             centeredSlides={false}
+            breakpoints={{
+                768: {
+                    spaceBetween: 20,
+                },
+            }}
         >
             {trendingData.map(card => (
                 <SwiperSlide key={card.id}>

@@ -35,6 +35,7 @@ const memberShipData = [
 const StyledSwiper = styled(Swiper)`
     margin-top: 40px;
     padding-bottom: 45px;
+    overflow: visible;
 
     @media (min-width: 768px) {
         margin-top: 50px;
@@ -50,11 +51,16 @@ const MembershipSlider = () => {
         <StyledSwiper
             className="membership_slider"
             modules={[Pagination]}
-            spaceBetween={20}
+            spaceBetween={16}
             slidesPerView="auto"
             loop={true}
             pagination={{ clickable: true }}
             centeredSlides={false}
+            breakpoints={{
+                768: {
+                    spaceBetween: 20,
+                },
+            }}
         >
             {memberShipData.map(card => (
                 <SwiperSlide key={card.id}>

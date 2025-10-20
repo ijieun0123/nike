@@ -57,7 +57,7 @@ footer {
         .copyright {
             margin-top: 50px;
             font-family: $font_family_korean;
-            font-size: 16px;
+            font-size: 15px;
             text-align: center;
             color: $black;
         }
@@ -91,16 +91,16 @@ footer {
             }
             address {
                 ul {
-                    gap: 12px;
+                    gap: 10px;
 
                     li {
-                        font-size: 16px;
+                        font-size: 15px;
                         letter-spacing: 0;
                     }
                 }
             }
             .copyright {
-                font-size: 18px;
+                font-size: 15px;
             }
         }
     }
@@ -124,7 +124,7 @@ footer {
 
                     li {
                         a {
-                            font-size: 18px;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -136,7 +136,7 @@ footer {
                     gap: 10px;
 
                     li {
-                        font-size: 18px;
+                        font-size: 16px;
                     }
                 }
             }
