@@ -15,7 +15,7 @@ const Home = () => {
                         data-aos="zoom-in"
                         data-aos-delay="300"
                         data-aos-duration="1500"
-                        src="img/intro_section_shoes.png"
+                        src="/nike/img/intro_section_shoes.png"
                         alt="nike shoes"
                         className="shoes_img"
                     />
@@ -28,7 +28,7 @@ const Home = () => {
                         data-aos-delay="600"
                     >
                         <img
-                            src="img/logo.png"
+                            src="/nike/img/logo.png"
                             alt="나이키 로고"
                             className="logo"
                         />
