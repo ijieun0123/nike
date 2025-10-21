@@ -22,7 +22,6 @@ https://ijieun0123.github.io/nike/
 
 ### 1440px
 
-<!-- <img src="public/img/nike_video.gif" /> -->
 <img src="public/img/nike_1920.png" />
 
 ### 1024px
