@@ -41,6 +41,10 @@ const StyledSwiper = styled(Swiper)`
     @media (min-width: 768px) {
         margin-top: 50px;
     }
+
+    @media (min-width: 1440px) {
+        overflow: hidden;
+    }
 `;
 
 const TrendingSlider = ({ ...rest }: TrendingSliderProps) => {
