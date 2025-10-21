@@ -129,6 +129,7 @@ main {
                     .paragraph {
                     }
                     .line {
+                        width: 180%;
                     }
                 }
                 .img_box {
@@ -370,7 +371,7 @@ main {
                     margin: 0 auto;
 
                     .bg_red_shoes {
-                        width: 362px;
+                        width: 57.185%;
                         height: 308px;
                         background: url("/nike/img/brand_section_shoes_mobile_1.png")
                             no-repeat center/contain;
@@ -468,7 +469,7 @@ main {
                         bottom: 0;
                         right: -17.968%;
                         order: 1;
-                        width: 579px;
+                        width: 80.64%;
                         height: 290px;
                     }
                 }
@@ -634,7 +635,7 @@ main {
                     height: 416px;
 
                     .bg_red_shoes {
-                        width: 460px;
+                        width: 51.939%;
                         height: 382px;
                     }
                     .text_box {
@@ -665,19 +666,19 @@ main {
                     }
                     .img_box {
                         order: 1;
+                        width: 41.188%;
 
                         .bg_yellow_shoes {
-                            width: 323px;
-                            height: 323px;
-                            // width: 31.542%;
-                            // padding-bottom: 31.542%;
+                            width: 80.99%;
+                            padding-bottom: 80.99%;
+                            margin-left: auto;
                             margin-top: -50px;
                         }
                         .bg_gray_shoes {
-                            width: 246px;
-                            height: 246px;
+                            width: 61.194%;
+                            padding-bottom: 61.194%;
                             margin-top: -66px;
-                            margin-left: -80px;
+                            margin-right: auto;
                             background: url("/nike/img/brand_section_shoes_3.png")
                                 no-repeat center/cover;
                         }
@@ -690,8 +691,6 @@ main {
                     margin-right: 4.687%;
 
                     .bg_red_gold_shoes {
-                        // width: 384px;
-                        // height: 384px;
                         width: 39.5%;
                         padding-bottom: 39.5%;
                     }
@@ -711,7 +710,7 @@ main {
                 }
                 .img_text_box_4 {
                     height: 332px;
-                    margin-top: 170px;
+                    margin-top: 158px;
 
                     .text_box {
                         order: 0;
@@ -728,7 +727,7 @@ main {
                         bottom: 0;
                         right: -15.625%;
                         order: 1;
-                        width: 678px;
+                        width: 69.467%;
                         height: 332px;
                     }
                 }
@@ -934,6 +933,7 @@ main {
                         .bg_yellow_shoes {
                             width: 323px;
                             height: 323px;
+                            padding-bottom: 0;
                             margin-top: -116px;
                             margin-right: 245px;
                         }
