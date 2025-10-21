@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# 🚀 나이키 리뉴얼 프로젝트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+본 프로젝트는 나이키 웹사이트의 현대화 및 사용자 경험(UX) 개선을 위한 리뉴얼 작업의 일환으로 진행되었습니다.
 
-Currently, two official plugins are available:
+https://ijieun0123.github.io/nike/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 💻 1. 기술 스택 (Tech Stack)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| 분류           | 기술                    | 역할                                                    |
+| :------------- | :---------------------- | :------------------------------------------------------ |
+| **프레임워크** | React (with Vite)       | 컴포넌트 기반 UI 구축                                   |
+| **언어**       | TypeScript              | 정적 타입 검사                                          |
+| **스타일링**   | Styled-Components, SCSS | 동적 스타일링 및 SCSS 문법 활용                         |
+| **슬라이더**   | Swiper                  | 아이코닉 슈즈 및 멤버십 카드, 트렌딩 카드 슬라이더 구현 |
+| **애니메이션** | AOS (`@types/aos` 포함) | 스크롤 시 요소 노출 애니메이션 적용                     |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ 2. 스크린 샷
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 1440px
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+<img src="public/img/nike_video.gif" />
+<img src="public/img/nike_1920.png" />
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1024px
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<img src="public/img/nike_1024.png" width="1024" />
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 768px
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<img src="public/img/nike_768.png" width="768" />
+
+### 360px
+
+<img src="public/img/nike_360.png" width="360" />
+
+## 🗓️ 개발 기간
+
+[총 8일] 2025. 10. 01 ~ 2025. 10. 21 <br/>
+( 포터블 모니터 이슈로 작업 기간 지체됨 )
+
+## 📄 라이선스
+
+이 프로젝트는 MIT 라이선스를 따릅니다.
