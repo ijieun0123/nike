@@ -476,6 +476,8 @@ main {
             }
         }
         .knight_section {
+            position: relative;
+            z-index: 2;
             flex-direction: row;
             gap: 40px;
             width: 86.979%;

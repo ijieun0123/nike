@@ -5,6 +5,11 @@ import TrendingSlide from "../slide/TrendingSlide";
 import styled from "styled-components";
 import "./TrendingSlider.scss";
 
+interface TrendingSliderProps {
+    "data-aos"?: string;
+    "data-aos-delay"?: string;
+}
+
 const trendingData = [
     {
         id: 1,
@@ -38,7 +43,7 @@ const StyledSwiper = styled(Swiper)`
     }
 `;
 
-const TrendingSlider = () => {
+const TrendingSlider = ({ ...rest }: TrendingSliderProps) => {
     return (
         <StyledSwiper
             className="trending_slider"
@@ -53,6 +58,7 @@ const TrendingSlider = () => {
                     spaceBetween: 20,
                 },
             }}
+            {...rest}
         >
             {trendingData.map(card => (
                 <SwiperSlide key={card.id}>

@@ -3,6 +3,8 @@ import styled from "styled-components";
 interface RoundBtnProps {
     btnName: string;
     color?: string;
+    "data-aos"?: string;
+    "data-aos-delay"?: string;
 }
 
 interface ColorProps {
@@ -37,9 +39,9 @@ const Arrow = styled.img`
     height: 11px;
 `;
 
-const RoundBtn = ({ btnName, color }: RoundBtnProps) => {
+const RoundBtn = ({ btnName, color, ...rest }: RoundBtnProps) => {
     return (
-        <StyledBtn href="#" color={color} className="round_btn">
+        <StyledBtn href="#" color={color} className="round_btn" {...rest}>
             {btnName}
             <Arrow
                 src={

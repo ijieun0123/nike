@@ -9,6 +9,8 @@ interface TitleBoxProps {
     subtitle1: string;
     subtitle2: string;
     color?: "white" | "black";
+    "data-aos"?: string;
+    "data-aos-delay"?: string;
 }
 
 const TitleContainer = styled.div`
@@ -63,9 +65,15 @@ const MoreBtn = styled.a<ColorProps>`
     }
 `;
 
-const TitleBox = ({ title, subtitle1, subtitle2, color }: TitleBoxProps) => {
+const TitleBox = ({
+    title,
+    subtitle1,
+    subtitle2,
+    color,
+    ...rest
+}: TitleBoxProps) => {
     return (
-        <TitleContainer className="title_box">
+        <TitleContainer className="title_box" {...rest}>
             <Title color={color} className="section_title">
                 {title}
             </Title>

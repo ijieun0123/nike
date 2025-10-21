@@ -5,6 +5,11 @@ import IconicSlide from "../slide/IconicSlide";
 import styled from "styled-components";
 import "./IconicSlider.scss";
 
+interface IconicSliderProps {
+    "data-aos"?: string;
+    "data-aos-delay"?: string;
+}
+
 const iconicData = [
     {
         id: 1,
@@ -35,7 +40,7 @@ const StyledSwiper = styled(Swiper)`
     }
 `;
 
-const IconicSlider = () => {
+const IconicSlider = ({ ...rest }: IconicSliderProps) => {
     return (
         <StyledSwiper
             className="iconic_swiper"
@@ -49,6 +54,7 @@ const IconicSlider = () => {
                     spaceBetween: 20,
                 },
             }}
+            {...rest}
         >
             {iconicData.map(data => (
                 <SwiperSlide key={data.id}>

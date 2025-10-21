@@ -5,6 +5,11 @@ import MembershipSlide from "../slide/MembershipSlide";
 import styled from "styled-components";
 import "./MembershipSlider.scss";
 
+interface MembershipSliderProps {
+    "data-aos"?: string;
+    "data-aos-delay"?: string;
+}
+
 const memberShipData = [
     {
         id: 1,
@@ -46,7 +51,7 @@ const StyledSwiper = styled(Swiper)`
     }
 `;
 
-const MembershipSlider = () => {
+const MembershipSlider = ({ ...rest }: MembershipSliderProps) => {
     return (
         <StyledSwiper
             className="membership_slider"
@@ -61,6 +66,7 @@ const MembershipSlider = () => {
                     spaceBetween: 20,
                 },
             }}
+            {...rest}
         >
             {memberShipData.map(card => (
                 <SwiperSlide key={card.id}>

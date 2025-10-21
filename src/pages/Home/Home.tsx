@@ -12,12 +12,21 @@ const Home = () => {
                 <div className="container">
                     <h2 className="sr_only">visual</h2>
                     <img
+                        data-aos="zoom-in"
+                        data-aos-delay="300"
+                        data-aos-duration="1500"
                         src="/nike/img/intro_section_shoes.png"
                         alt="nike shoes"
                         className="shoes_img"
                     />
-                    <span className="nike">NIKE</span>
-                    <div className="just_do_it_box">
+                    <span data-aos="zoom-in" className="nike">
+                        NIKE
+                    </span>
+                    <div
+                        className="just_do_it_box"
+                        data-aos="fade-left"
+                        data-aos-delay="600"
+                    >
                         <img
                             src="/nike/img/logo.png"
                             alt="나이키 로고"
@@ -39,14 +48,18 @@ const Home = () => {
                         subtitle1="모든 영감의 시작. 스타일의 '근본'이 되는 아이코닉 컬렉션."
                         subtitle2="새로운 트렌드는 결국 클래식에서 온다. 오리지널을 신으세요."
                         color="white"
+                        data-aos="fade-up"
                     />
-                    <IconicSlider />
+                    <IconicSlider data-aos="fade-up" data-aos-delay="300" />
                 </div>
             </section>
             <section className="brand_section">
                 <div className="container">
                     <h2 className="sr_only">brand</h2>
-                    <div className="img_text_box img_text_box_1">
+                    <div
+                        className="img_text_box img_text_box_1"
+                        data-aos="fade-right"
+                    >
                         <div className="bg_red_shoes"></div>
                         <div className="text_box">
                             <h3>Just Do It. 의 탄생</h3>
@@ -61,7 +74,11 @@ const Home = () => {
                             <span className="line"></span>
                         </div>
                     </div>
-                    <div className="img_text_box img_text_box_2">
+                    <div
+                        className="img_text_box img_text_box_2"
+                        data-aos="fade-left"
+                        data-aos-delay="300"
+                    >
                         <div className="img_box">
                             <div className="bg_yellow_shoes"></div>
                             <div className="bg_gray_shoes"></div>
@@ -79,7 +96,11 @@ const Home = () => {
                             <span className="line"></span>
                         </div>
                     </div>
-                    <div className="img_text_box img_text_box_3">
+                    <div
+                        className="img_text_box img_text_box_3"
+                        data-aos="fade-right"
+                        data-aos-delay="600"
+                    >
                         <div className="bg_red_gold_shoes"></div>
                         <div className="text_box">
                             <h3>Beyond the Game</h3>
@@ -94,7 +115,11 @@ const Home = () => {
                             <span className="line"></span>
                         </div>
                     </div>
-                    <div className="img_text_box img_text_box_4">
+                    <div
+                        className="img_text_box img_text_box_4"
+                        data-aos="fade-left"
+                        data-aos-delay="600"
+                    >
                         <div className="bg_blue_shoes"></div>
                         <div className="text_box">
                             <h3>Moment of Greatness</h3>
@@ -112,7 +137,11 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="knight_section">
+            <section
+                className="knight_section"
+                data-aos="fade-down"
+                data-aos-delay="600"
+            >
                 <div className="bg_knight_photo"></div>
                 <div className="text_box">
                     <h2>
@@ -128,7 +157,7 @@ const Home = () => {
                     <RoundBtn btnName="READ MORE" color="black" />
                 </div>
             </section>
-            <section className="legend_section">
+            <section className="legend_section" data-aos="fade-up">
                 <div className="container">
                     <h2>전설을 신다</h2>
                     <p className="paragraph">
@@ -145,9 +174,13 @@ const Home = () => {
             <section className="history_section">
                 <div className="container">
                     <h2 className="sr_only">history</h2>
-                    <div className="bg_red_shoes"></div>
+                    <div className="bg_red_shoes" data-aos="zoom-in"></div>
                     <div className="history_wrap">
-                        <div className="history_box history_box_1">
+                        <div
+                            className="history_box history_box_1"
+                            data-aos="fade-up-left"
+                            data-aos-delay="300"
+                        >
                             <span>01</span>
                             <div>
                                 <b>1964-1971</b>
@@ -160,7 +193,11 @@ const Home = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="history_box history_box_2">
+                        <div
+                            className="history_box history_box_2"
+                            data-aos="fade-up-right"
+                            data-aos-delay="300"
+                        >
                             <span>02</span>
                             <div>
                                 <b>1972-1984</b>
@@ -172,7 +209,11 @@ const Home = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="history_box history_box_3">
+                        <div
+                            className="history_box history_box_3"
+                            data-aos="fade-down-left"
+                            data-aos-delay="300"
+                        >
                             <span>03</span>
                             <div>
                                 <b>1985-2000</b>
@@ -184,7 +225,11 @@ const Home = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="history_box history_box_4">
+                        <div
+                            className="history_box history_box_4"
+                            data-aos="fade-down-right"
+                            data-aos-delay="300"
+                        >
                             <span>04</span>
                             <div>
                                 <b>2001-현재</b>
@@ -207,9 +252,17 @@ const Home = () => {
                         subtitle1="가장 먼저, 가장 특별하게. 오직 나이키 멤버만을 위한 모든 것."
                         subtitle2="당신의 잠재력을 깨우는 최고의 혜택과 맞춤형 경험을 만나보세요."
                         color="black"
+                        data-aos="fade-up"
                     />
-                    <MembershipSlider />
-                    <div className="gray_box"></div>
+                    <MembershipSlider
+                        data-aos="fade-left"
+                        data-aos-delay="300"
+                    />
+                    <div
+                        className="gray_box"
+                        data-aos="slide-left"
+                        data-aos-delay="600"
+                    ></div>
                 </div>
             </section>
             <section className="trending_section">
@@ -219,10 +272,20 @@ const Home = () => {
                         subtitle1="지금 가장 주목해야 할 스타일. 트렌드는 나이키에서 시작됩니다."
                         subtitle2="오늘의 문화를 정의하는 스니커즈와 컬렉션을 가장 빠르게 확인하세요."
                         color="white"
+                        data-aos="fade-up"
                     />
-                    <TrendingSlider />
-                    <div className="line"></div>
-                    <RoundBtn btnName="READ MORE" color="white" />
+                    <TrendingSlider data-aos="fade-left" data-aos-delay="300" />
+                    <div
+                        className="line"
+                        data-aos="fade-down"
+                        data-aos-delay="600"
+                    ></div>
+                    <RoundBtn
+                        btnName="READ MORE"
+                        color="white"
+                        data-aos="fade-down"
+                        data-aos-delay="600"
+                    />
                 </div>
             </section>
         </main>
