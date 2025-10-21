@@ -11,7 +11,7 @@ const Header = () => {
         setIsMenuActive(!isMenuActive);
     };
 
-    const logo = getAssetPath("img/logo.png");
+    const logo = getAssetPath("/nike/img/logo.png");
 
     return (
         <header>

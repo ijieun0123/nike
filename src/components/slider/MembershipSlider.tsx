@@ -15,25 +15,25 @@ const memberShipData = [
         id: 1,
         title: "맴버 리워드",
         description: "운동과 쇼핑을 위한 특별한 혜택",
-        imageUrl: "img/membership_section_photo_1.png",
+        imageUrl: "/nike/img/membership_section_photo_1.png",
     },
     {
         id: 2,
         title: "스포츠 & 웰니스 앱",
         description: "언제 어디서든 운동하기",
-        imageUrl: "img/membership_section_photo_2.png",
+        imageUrl: "/nike/img/membership_section_photo_2.png",
     },
     {
         id: 3,
         title: "SNKRS",
         description: "최고의 스니커즈 커뮤니티",
-        imageUrl: "img/membership_section_photo_3.png",
+        imageUrl: "/nike/img/membership_section_photo_3.png",
     },
     {
         id: 4,
         title: "대학생 멤버 혜택",
         description: "대학생 할인 프로그램",
-        imageUrl: "img/membership_section_photo_4.png",
+        imageUrl: "/nike/img/membership_section_photo_4.png",
     },
 ];
 

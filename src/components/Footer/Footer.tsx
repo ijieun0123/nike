@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="logo_policy_box">
                     <img
                         className="logo"
-                        src="img/logo.png"
+                        src="/nike/img/logo.png"
                         alt="나이키 로고"
                     />
                     <ul className="policy_box">

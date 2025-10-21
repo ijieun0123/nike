@@ -46,8 +46,8 @@ const RoundBtn = ({ btnName, color, ...rest }: RoundBtnProps) => {
             <Arrow
                 src={
                     color === "black"
-                        ? `img/more_btn_arrow_black.png`
-                        : `img/more_btn_arrow_white.png`
+                        ? `/nike/img/more_btn_arrow_black.png`
+                        : `/nike/img/more_btn_arrow_white.png`
                 }
                 alt="arrow"
                 color={color}
