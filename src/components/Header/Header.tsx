@@ -15,7 +15,7 @@ const Header = () => {
             <div className="header_inner">
                 <h1 className="logo">
                     <a href="#">
-                        <img src="/nike/img/logo.png" alt="나이키 로고" />
+                        <img src="img/logo.png" alt="나이키 로고" />
                     </a>
                 </h1>
                 <button

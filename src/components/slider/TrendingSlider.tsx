@@ -14,22 +14,22 @@ const trendingData = [
     {
         id: 1,
         title: "나이키와 시작하는 가을",
-        imageUrl: "/nike/img/trend_section_photo_1.png",
+        imageUrl: "img/trend_section_photo_1.png",
     },
     {
         id: 2,
         title: "나이키 스트라이크 의류 컬렉션",
-        imageUrl: "/nike/img/trend_section_photo_2.png",
+        imageUrl: "img/trend_section_photo_2.png",
     },
     {
         id: 3,
         title: "남성 맥스 90 농구 티셔츠",
-        imageUrl: "/nike/img/trend_section_photo_3.png",
+        imageUrl: "img/trend_section_photo_3.png",
     },
     {
         id: 4,
         title: "나이키 골프 컬렉션",
-        imageUrl: "/nike/img/trend_section_photo_4.png",
+        imageUrl: "img/trend_section_photo_4.png",
     },
 ];
 

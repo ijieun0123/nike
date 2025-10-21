@@ -110,7 +110,7 @@ main {
                 .bg_red_shoes {
                     width: 296px;
                     height: 260px;
-                    background: url("/nike/img/brand_section_shoes_mobile_1.png")
+                    background: url("img/brand_section_shoes_mobile_1.png")
                         no-repeat center/contain;
                 }
                 .text_box {
@@ -136,7 +136,7 @@ main {
                     .bg_yellow_shoes {
                         width: 296px;
                         height: 296px;
-                        background: url("/nike/img/brand_section_shoes_2.png")
+                        background: url("img/brand_section_shoes_2.png")
                             no-repeat center/cover;
                     }
                     .bg_gray_shoes {
@@ -147,8 +147,8 @@ main {
                 .bg_red_gold_shoes {
                     width: 296px;
                     height: 296px;
-                    background: url("/nike/img/brand_section_shoes_4.png")
-                        no-repeat center/cover;
+                    background: url("img/brand_section_shoes_4.png") no-repeat
+                        center/cover;
                 }
                 .text_box {
                     h3 {
@@ -171,8 +171,8 @@ main {
                 .bg_blue_shoes {
                     width: 296px;
                     height: 151px;
-                    background: url("/nike/img/brand_section_shoes_5.png")
-                        no-repeat center/contain;
+                    background: url("img/brand_section_shoes_5.png") no-repeat
+                        center/contain;
                 }
             }
         }
@@ -190,8 +190,8 @@ main {
         .bg_knight_photo {
             width: 100%;
             height: 463px;
-            background: url("/nike/img/knight_section_photo.png") no-repeat
-                center top/cover;
+            background: url("img/knight_section_photo.png") no-repeat center
+                top/cover;
         }
         .text_box {
             width: 82.222%;
@@ -218,8 +218,7 @@ main {
         width: 100%;
         height: 584px;
         margin-top: 0;
-        background: url("/nike/img/legend_section_photo.png") no-repeat
-            center/cover;
+        background: url("img/legend_section_photo.png") no-repeat center/cover;
         text-align: center;
 
         .container {
@@ -373,7 +372,7 @@ main {
                     .bg_red_shoes {
                         width: 57.185%;
                         height: 308px;
-                        background: url("/nike/img/brand_section_shoes_mobile_1.png")
+                        background: url("img/brand_section_shoes_mobile_1.png")
                             no-repeat center/contain;
                         flex-shrink: 0;
                     }
@@ -530,8 +529,8 @@ main {
                     order: 2;
                     width: 238px;
                     height: 658px;
-                    background: url("/nike/img/history_section_shoes.png")
-                        no-repeat center/cover;
+                    background: url("img/history_section_shoes.png") no-repeat
+                        center/cover;
                 }
                 .history_wrap {
                     order: 1;
@@ -681,7 +680,7 @@ main {
                             padding-bottom: 61.194%;
                             margin-top: -66px;
                             margin-right: auto;
-                            background: url("/nike/img/brand_section_shoes_3.png")
+                            background: url("img/brand_section_shoes_3.png")
                                 no-repeat center/cover;
                         }
                     }
@@ -897,7 +896,7 @@ main {
                     .bg_red_shoes {
                         width: 688px;
                         height: 385px;
-                        background: url("/nike/img/brand_section_shoes_1.png")
+                        background: url("img/brand_section_shoes_1.png")
                             no-repeat center/cover;
                     }
                     .text_box {
