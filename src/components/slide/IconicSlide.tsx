@@ -82,7 +82,7 @@ const IconicSlide = ({ name, description, imgUrl }: IconicSlideProps) => {
             <NikeLogo
                 className="bg_nike_logo"
                 style={{
-                    background: `url(/nike/img/logo.png) no-repeat center/cover`,
+                    background: `url(img/logo.png) no-repeat center/cover`,
                 }}
             ></NikeLogo>
             <ShoesImg

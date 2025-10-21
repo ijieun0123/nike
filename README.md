@@ -22,19 +22,19 @@ https://ijieun0123.github.io/nike/
 
 ### 1440px
 
-<img src="public/nike/img/nike_1920.png" />
+<img src="publicimg/nike_1920.png" />
 
 ### 1024px
 
-<img src="public/nike/img/nike_1024.png" width="1024" />
+<img src="publicimg/nike_1024.png" width="1024" />
 
 ### 768px
 
-<img src="public/nike/img/nike_768.png" width="768" />
+<img src="publicimg/nike_768.png" width="768" />
 
 ### 360px
 
-<img src="public/nike/img/nike_360.png" width="360" />
+<img src="publicimg/nike_360.png" width="360" />
 
 ## 🗓️ 개발 기간
 
