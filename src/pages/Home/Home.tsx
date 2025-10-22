@@ -99,7 +99,7 @@ const Home = () => {
                     <div
                         className="img_text_box img_text_box_3"
                         data-aos="fade-right"
-                        data-aos-delay="600"
+                        data-aos-delay="300"
                     >
                         <div className="bg_red_gold_shoes"></div>
                         <div className="text_box">
@@ -118,7 +118,7 @@ const Home = () => {
                     <div
                         className="img_text_box img_text_box_4"
                         data-aos="fade-left"
-                        data-aos-delay="600"
+                        data-aos-delay="300"
                     >
                         <div className="bg_blue_shoes"></div>
                         <div className="text_box">
