@@ -13,7 +13,7 @@ const Home = () => {
                     <h2 className="sr_only">visual</h2>
                     <img
                         data-aos="zoom-in"
-                        data-aos-delay="300"
+                        data-aos-delay="200"
                         data-aos-duration="1500"
                         src="/nike/img/intro_section_shoes.png"
                         alt="nike shoes"
@@ -25,7 +25,7 @@ const Home = () => {
                     <div
                         className="just_do_it_box"
                         data-aos="fade-left"
-                        data-aos-delay="600"
+                        data-aos-delay="400"
                     >
                         <img
                             src="/nike/img/logo.png"
@@ -50,7 +50,7 @@ const Home = () => {
                         color="white"
                         data-aos="fade-up"
                     />
-                    <IconicSlider data-aos="fade-up" data-aos-delay="300" />
+                    <IconicSlider data-aos="fade-up" data-aos-delay="200" />
                 </div>
             </section>
             <section className="brand_section">
@@ -77,7 +77,7 @@ const Home = () => {
                     <div
                         className="img_text_box img_text_box_2"
                         data-aos="fade-left"
-                        data-aos-delay="300"
+                        data-aos-delay="200"
                     >
                         <div className="img_box">
                             <div className="bg_yellow_shoes"></div>
@@ -99,7 +99,7 @@ const Home = () => {
                     <div
                         className="img_text_box img_text_box_3"
                         data-aos="fade-right"
-                        data-aos-delay="300"
+                        data-aos-delay="200"
                     >
                         <div className="bg_red_gold_shoes"></div>
                         <div className="text_box">
@@ -118,7 +118,7 @@ const Home = () => {
                     <div
                         className="img_text_box img_text_box_4"
                         data-aos="fade-left"
-                        data-aos-delay="300"
+                        data-aos-delay="200"
                     >
                         <div className="bg_blue_shoes"></div>
                         <div className="text_box">
@@ -140,7 +140,7 @@ const Home = () => {
             <section
                 className="knight_section"
                 data-aos="fade-down"
-                data-aos-delay="600"
+                data-aos-delay="400"
             >
                 <div className="bg_knight_photo"></div>
                 <div className="text_box">
@@ -179,7 +179,7 @@ const Home = () => {
                         <div
                             className="history_box history_box_1"
                             data-aos="fade-up-left"
-                            data-aos-delay="300"
+                            data-aos-delay="200"
                         >
                             <span>01</span>
                             <div>
@@ -196,7 +196,7 @@ const Home = () => {
                         <div
                             className="history_box history_box_2"
                             data-aos="fade-up-right"
-                            data-aos-delay="300"
+                            data-aos-delay="200"
                         >
                             <span>02</span>
                             <div>
@@ -212,7 +212,7 @@ const Home = () => {
                         <div
                             className="history_box history_box_3"
                             data-aos="fade-down-left"
-                            data-aos-delay="300"
+                            data-aos-delay="200"
                         >
                             <span>03</span>
                             <div>
@@ -228,7 +228,7 @@ const Home = () => {
                         <div
                             className="history_box history_box_4"
                             data-aos="fade-down-right"
-                            data-aos-delay="300"
+                            data-aos-delay="200"
                         >
                             <span>04</span>
                             <div>
@@ -256,12 +256,12 @@ const Home = () => {
                     />
                     <MembershipSlider
                         data-aos="fade-left"
-                        data-aos-delay="300"
+                        data-aos-delay="200"
                     />
                     <div
                         className="gray_box"
                         data-aos="slide-left"
-                        data-aos-delay="600"
+                        data-aos-delay="400"
                     ></div>
                 </div>
             </section>
@@ -274,17 +274,17 @@ const Home = () => {
                         color="white"
                         data-aos="fade-up"
                     />
-                    <TrendingSlider data-aos="fade-left" data-aos-delay="300" />
+                    <TrendingSlider data-aos="fade-left" data-aos-delay="200" />
                     <div
                         className="line"
                         data-aos="fade-down"
-                        data-aos-delay="600"
+                        data-aos-delay="400"
                     ></div>
                     <RoundBtn
                         btnName="READ MORE"
                         color="white"
                         data-aos="fade-down"
-                        data-aos-delay="600"
+                        data-aos-delay="400"
                     />
                 </div>
             </section>
